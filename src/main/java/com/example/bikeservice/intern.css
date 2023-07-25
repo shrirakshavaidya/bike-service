@@ -1,0 +1,18 @@
+body {
+  background-size: 100% 100vh; /* cover */
+  background-attachment: fixed;
+  background-image: linear-gradient(red, yellow, grey);
+  background-image: url(https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg?w=1060&t=st=1675403275~exp=1675403875~hmac=00d4215ffa8feff68f6e592697a3c008f6d83d6bc7a6295f8198dc1a1dfabf6e);
+}
+
+.Heading {
+  font-size: 500%;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.Heading1 {
+  font-size: 400%;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+

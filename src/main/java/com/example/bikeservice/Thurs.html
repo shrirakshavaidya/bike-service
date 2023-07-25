@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <input type="number" id="val1" />
+    <input type="number" id="val2" />
+
+    <input type="number" id="demo" />
+    <input type="text" id="val" onkeyup="myfunction" />
+    <button onclick="myfunction()">Click</button>
+    <p id="demo1"></p>
+  </body>
+  <script>
+    function myfunction() {
+      /*  let e = document.getElementById("demo");
+      let a = document.getElementById("val1");
+      let b = document.getElementById("val2");
+      let c = parseInt(a.value) + parseInt(b.value);
+      console.log(c);
+      document.getElementById("demo").value = c;*/
+      a = document.getElementById("val").value;
+      document.getElementById("demo1").innerHTML = a;
+      console.log(a);
+    }
+  </script>
+</html>
